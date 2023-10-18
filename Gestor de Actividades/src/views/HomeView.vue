@@ -5,7 +5,7 @@ const {todosIncompleted,todosCompleted,toggle,deleteTodo} = todosFactory();
 </script>
 
 <template>
-  <h3>Todo list</h3>  
+  <h3>Incompleted</h3>  
   <ul id="incomplete-tasks">
     <li v-for="todo of todosIncompleted" :key="todo.id" @click="toggle(todo.id)">
       <input type="checkbox">
@@ -23,4 +23,5 @@ const {todosIncompleted,todosCompleted,toggle,deleteTodo} = todosFactory();
   </ul>
 </template>
 <style>
+  
 </style>

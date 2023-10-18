@@ -11,7 +11,7 @@
 </script>
 
 <template>
-    <div class="container">
+    <div class="container-new-todo">
         <label for="new-task">New Todo</label>
         <input id="new-task" @keyup.enter="addAndNavigate(name)" type="text" v-model="name">
         <button type="add"  @click="addAndNavigate(name)">Add</button>

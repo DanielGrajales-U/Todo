@@ -3,22 +3,40 @@ html, body { height: 100%; }
 body {
   background-color: rgb(30, 29, 29);
   margin: 0;
+  font-size: 30px;
   color: #fff;
-  font-family: Lato, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: serif;
 }
 
 .container {
   display: block;
   width: 400px;
   margin: 100px auto 0;
+  padding:50px 100px ;
+  background-color: #000;
+  border-radius: 10px;
 }
+
+a{
+  text-decoration: none;
+  color: rgba(164, 233, 250, 0.486);
+  font-weight: bolder;
+  transition: all .2s ease-in-out;
+}
+
+a:hover{
+  font-size: 25px;
+  color: rgb(164, 233, 250);
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -109,6 +127,7 @@ li >  input[type="text"] {
 }
 li > .delete:hover {
   color: #CF2323;
+  font-size: 18px;
 }
 
 /* Completed */
